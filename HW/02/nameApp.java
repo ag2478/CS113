@@ -2,7 +2,7 @@ package CS113.HW;
 
 import java.util.Scanner;
 
-public class nanmeApp {
+public class nameApp {
 
      public static void main(String[] args){
        Scanner scanner = new Scanner(System.in);
