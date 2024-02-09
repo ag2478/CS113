@@ -3,20 +3,19 @@
 //
 // Play with String objects
 // **************************************************
-import java.util.*;
 public class stringplayer
 {
 public static void main (String[] args)
 {
 String college = new String ("PoDunk College");
-________________________________________________________; // part (a)
+String town = new String("Anytown, USA"); // part (a)
 int stringLength;
 String change1, change2, change3;
-________________________________________________________; // part (b)
+stringLength = college.length(); // part (b)
 System.out.println (college + " contains " + stringLength + " characters.");
-changel = _____________________________________________; // part (c)
-change2 = _____________________________________________; // part (d)
-change3 = _____________________________________________; // part (e)
+change1 = college.toLowerCase(); // part (c)
+change2 = change1.replace("O", "*"); // part (d)
+change3 = college.concat(town); // part (e)
 System.out.println ("The final string is " + change3);
 }
 }
