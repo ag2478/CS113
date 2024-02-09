@@ -3,7 +3,8 @@
 //
 // Play with String objects
 // **************************************************
-public class stringplay
+import java.util.*;
+public class stringplayer
 {
 public static void main (String[] args)
 {
