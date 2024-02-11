@@ -1,8 +1,8 @@
 
 public class Book {
 
-    private String title;
-    private int pages;
+    String title;
+    int pages;
     
     public Book(String title, int pages){
     
@@ -12,19 +12,19 @@ public class Book {
     }
 
     public String getTitle(){
-        
+        return title;
     }
 
     public int getPages(){
-
+        return pages;
     }
 
-    public String setTitle(){
-
+    public void setTitle(){
+        this.title = title;
     }
 
-    public int setPages(){
-
+    public void setPages(){
+        this.pages = pages;
     }
 
     public String toString(){
