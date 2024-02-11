@@ -1,14 +1,14 @@
 
 public class Book {
 
-    String title;
-    int pages;
+    private String title = "Java Programming";
+    private int pages = 200;
     
     public Book(String title, int pages){
-    
-        this.title = "Java Programming";
-        this.pages = 200;
 
+        this.title = title;
+        this.pages = pages;
+    
     }
 
     public String getTitle(){
@@ -27,6 +27,7 @@ public class Book {
         this.pages = pages;
     }
 
+    @Override
     public String toString(){
 
         return "Book title: " + title + "\nTotal pages: " + pages + "\n\n------------- End of Line -------------";
