@@ -6,8 +6,8 @@ public class TestMethod {
         double w;
         double l;
         double h;
-        Die d1;
-        Die d2;
+        int d1;
+        int d2;
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         //bringing back the ole' classics of waste!
@@ -21,6 +21,18 @@ public class TestMethod {
 
         double v = MyMethods.volume(l,w,h);
         System.out.println("The volume of you object is: " + v);
+
+        System.out.println("\nNow lets try this avgFaceValues shenanigans.\n\nPlease provide the amount of faces for die 1: \n ");
+        d1 = scanner2.nextInt();
+        System.out.println("Now input the second die face value: ");
+        d2 = scanner2.nextInt();
+
+        double a = MyMethods.avgFaceValue(d1,d2);
+        System.out.println("Your avgFaceValue of the input values is: " + a);
+
+
+
+
 
 
 

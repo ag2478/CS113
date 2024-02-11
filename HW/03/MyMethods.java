@@ -8,7 +8,7 @@ public class MyMethods {
     }
 
 
-    public double avgFaceValues(Die d1, Die d2){
+    public static double avgFaceValues(Die d1, Die d2){
         
         int fv1 = d1.roll();
         int fv2 = d2.roll();
