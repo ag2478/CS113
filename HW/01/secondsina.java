@@ -1,7 +1,6 @@
-package CS113.HW;
+
 
 import java.util.*;
-
 
 public class secondsina {
 

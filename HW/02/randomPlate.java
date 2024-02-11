@@ -1,4 +1,4 @@
-package CS113.HW;
+
 
 import java.util.Random;
 /** going with the classics here, efficiency is for nerds */
