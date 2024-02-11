@@ -12,15 +12,15 @@ public class TestMethod {
         Scanner scanner2 = new Scanner(System.in);
         //bringing back the ole' classics of waste!
 
-        System.out.println("/nLets start with the volume method of an object./n/nPlease enter the width: ");
+        System.out.println("\nLets start with the volume method of an object.\n\nPlease enter the width: ");
         w = scanner1.nextDouble();
         System.out.println("Now input the length: ");
         l = scanner1.nextDouble();
         System.out.println("Now input the heigth: ");
         h = scanner1.nextDouble();
 
-        double volume = MyMethods.volume(l,w,h);
-        System.out.println("The volume of you object is: " + volume);
+        double v = MyMethods.volume(l,w,h);
+        System.out.println("The volume of you object is: " + v);
 
 
 

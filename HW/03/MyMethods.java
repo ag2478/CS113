@@ -1,11 +1,12 @@
 
 public class MyMethods {
 
-    public double volume(double width, double length, double height){
+    public static double volume(double width, double length, double height){
         
         return width * length * height;
 
     }
+
 
     public double avgFaceValues(Die d1, Die d2){
         
@@ -14,5 +15,6 @@ public class MyMethods {
         return (( fv1 + fv2 ) / 2); 
 
     }
+
 
 }
