@@ -10,6 +10,7 @@ public class TestBook {
         int pages2;
         Scanner scanner = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
+        //thats right, gonna be wasteful!
 
 
         System.out.println("\nPlease input the name of the first book: ");
@@ -30,6 +31,7 @@ public class TestBook {
         System.out.println("\nYour output is as follow:\n");
 
         System.out.println(book1);
+        //tahts right my OUTPUTS have my easter egg!
 
         System.out.println();
 
