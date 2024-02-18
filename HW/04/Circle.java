@@ -3,52 +3,31 @@
 public class Circle {
     
     private Point center;
-    private int radius;
+    private double radius;
 
-    public static void main(String[] args){
+    public Circle(Point center, double radius){
         this.center = center;
         this.radius = radius;
 
     }
 
-    public int getRadius{
-
-        return radius;
-
-    }
-
-    public Point getCenter{
-
-        return center;
-
-    }
-
-    public void setCenter{
-
-        this.center = center;
-
-    }
-
-    public void setRadius{
-
-        this.radius = radius;
-
-    }
     
-    public boolean equals(){
-
-        if (Point 1 == Point 2) 
-            return true;
-
-        else 
-            return false;
-    }
 
     public Double circumference(){
+
+        return 2 * Math.PI * radius;
+
+    }
+
+    public boolean equals(Circle other){
+
+        return this.radius == other.radius;
 
     }
 
     public String toString(){
+
+        return "This circle's center is X:" + center.x + " Y: " + center.y + "\nWith a Radius of: " + radius;
 
     }
 
