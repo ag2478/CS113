@@ -9,27 +9,34 @@ public class Test
         int entry = scanner.nextInt();
 
 
+        do{
 
-        switch(entry){
+            entry++;
+            System.out.println(entry);
 
-            case 1 :
-            System.out.println(1);
+        }
+        while (entry < 100);
+
+
+/*          switch(entry){
+
+            case <10 :
+            System.out.println("Odd");
             break;
 
-            case 2 :
-            System.out.println(2);
-            break;
-
-            case 3 :
-            System.out.println(3);
+            case >10 :
+            System.out.println("Even");
             break;
 
             default :
-            System.out.println("Error");
-            break;
-    }
+            System.out.println("Error");   
+            
+*/
+        
+        }
 
-       System.out.println("another test run");
+
+
+      // System.out.println("another test run");
 
     }
-}
