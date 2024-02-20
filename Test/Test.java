@@ -13,6 +13,7 @@ public class Test
 
             if (d1.roll() == 3)
                 count++;
+            System.out.print("*");
 
         }
 /*
@@ -40,6 +41,8 @@ public class Test
             
 */
 
-System.out.println("test");
-    }
+System.out.println();
+System.out.println();
+System.out.println("------------- End of Line -------------");
+}
 }
