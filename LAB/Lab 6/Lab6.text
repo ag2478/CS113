@@ -1,0 +1,9 @@
+Using the Coin Class
+The Coin class from Listing 4.2 in the text is in the file Coin.java. Copy it to your directory, then write a program to find the
+length of the longest run of heads in 100 flips of the coin. A skeleton of the program is in the file Runs.java. To use the Coin
+class you need to do the following in the program:
+1. Create a coin object.
+2. Inside the loop, you should use the flip method to flip the coin, the toString method (used implicitly) to print the results
+of the flip, and the getFace method to see if the result was HEADS. Keeping track of the current run length (the number
+of times in a row that the coin was HEADS) and the maximum run length is an exercise in loop techniques!
+3. Print the result after the loop. 
