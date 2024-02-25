@@ -7,6 +7,9 @@ public class Runs
 {
 public static void main (String[] args)
 {
+
+    coin = Coin();
+
 final int FLIPS = 100; // number of coin flips
 int currentRun =0; // length of the current run of HEADS
 int maxRun =0; // length of the maximum run so far
