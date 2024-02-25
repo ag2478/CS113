@@ -7,19 +7,50 @@ public class Runs
 {
 public static void main (String[] args)
 {
-
-    coin = Coin();
-
 final int FLIPS = 100; // number of coin flips
 int currentRun =0; // length of the current run of HEADS
 int maxRun =0; // length of the maximum run so far
 // Create a coin object
+
+Coin coin = new Coin();
+
 // Flip the coin FLIPS times
 for (int i = 0; i < FLIPS; i++)
  {
 // Flip the coin & print the result
+
+coin.flip();
+
 // Update the run information
+
+if (coin.toString() == "Heads")
+
+    {
+
+        currentRun++;
+
+    }
+
+else
+
+    {
+
+        if (maxRun <= currentRun)
+
+        {
+            maxRun = currentRun;
+        }
+
+        else
+
+        currentRun = 0;
+
+    }
+
  }
 // Print the results
+
+System.out.println("The Amount of Heads in this run was: " + maxRun);
+
 }
 } 
