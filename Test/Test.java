@@ -7,13 +7,13 @@ public class Test
         //Scanner scanner = new Scanner(System.in);
         //System.out.println("enter a number: ");
         //int entry = scanner.nextInt();
-        Die d1 = new Die();
+        /*Die d1 = new Die();
 
         for (int count = 1; count <= 100; count++){
 
             if (d1.roll() == 3)
                 count++;
-            System.out.print("*");
+            System.out.print("*");*/
 
         }
 /*
